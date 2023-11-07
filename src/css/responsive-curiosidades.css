@@ -1,0 +1,45 @@
+@media (max-width: 600px) {
+    main {
+        
+        
+        padding: 30px;
+        margin: 0px 20px;
+    }
+
+   
+
+    .arvore-genealogica div {
+        padding: 20px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+    }
+                    
+}
+
+
+
+@media (max-width: 450px) {
+
+    header {
+        padding: 20px;
+        
+    }
+    .curiosidade  .info .texto-centralizado {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .curiosidade .img-info img {
+        height: 300px;
+    }
+
+    
+    .curiosidade .tabela table {
+        width: 100%;
+    }
+}

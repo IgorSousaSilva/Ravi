@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@font-face {
+    font-family: 'always';
+    src: url(../font/Always\ Smile.otf);
+}
+body {
+    background-color: var(--cor-padrao);
+    
+    
+}
+
+header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      padding: 20px;
+      font-family: var(--font-especial);
+      font-size: 30px;
+      
+
+
+
+}
+
+
+header h1 {
+    color: black;
+    font-family: var(--font-especial);
+    letter-spacing: 3px;
+    
+    
+}
+
+header p {
+    text-align: center;
+    font-weight: 300;
+    color: var(--cor-texto);
+    
+}
+
+header img {
+     height: 200px;
+     width: 300px;
+     border-radius: 50%;
+    
+}
+
+nav {
+    width: 100%;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.lista-menu li a {
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 2px 4px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+
+    
+    
+}
+
+ul li a:hover {
+    color: whitesmoke;
+    background-color: var(--cor-link);
+    
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
+
+
+.dicas-para-maes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    padding: 5px 20px;
+}
+
+
+
+h2 {
+
+        font-size: 40px;
+        font-family: var(--font-especial);
+        letter-spacing: 3px;
+    
+}
+
+p {
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--cor-texto);
+    font-family: var(--font-especial);
+}  
+
+.paragrafo {
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        
+        
+        
+
+    }
+
+    .lista-de-dicas {
+        list-style: circle;
+        list-style: inside;
+        columns: 2;
+        margin-bottom: 20px;
+        margin-top: 20px;
+       
+
+    }
+
+    article .lista-de-dicas li {
+        padding: 2px 80px;
+       
+       
+    }
+
+    article iframe {
+        border: 1px solid black;
+       height: 300px;
+       width: 100%;
+    }
+
+    picture img {
+      width: 300px;
+      height: 300px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    .dicas-para-enxoval {
+        padding: 20px;
+        
+    }
+
+    .dicas-para-enxoval .enxoval {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+
+    }
+
+    .enxoval img {
+        width: 500px;
+        height: 300px;
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+        
+    }
+
+    .enxoval .lista-de-enxoval {
+        list-style: circle;
+        list-style: inside;
+        
+        margin-bottom: 20px;
+        margin-top: 20px;
+       
+    }
+
+    
+
+     
+
+     
+
+ 

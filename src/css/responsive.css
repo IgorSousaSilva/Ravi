@@ -1,0 +1,131 @@
+@media (max-width: 980px) {
+    .article {
+    height: 100%;
+    padding: 30px;
+        
+    }
+}
+
+
+@media (max-width: 600px) {
+   
+
+    .article h1 {
+        font-size: 20px;
+    }
+
+    .article p {
+        font-size: 22px;
+    }
+
+    
+}
+        
+
+
+  
+
+
+@media (max-width:538px) {
+
+   
+    
+
+    header nav .lista-menu {
+        padding:  10px 40px;
+        display: block;margin: auto;
+        text-align: center;
+        margin-top: 50px;
+      border: none;
+
+        border-top: 1px solid black;
+
+        border-bottom: 1px solid black;
+        
+        
+      
+       
+        
+    }
+
+   
+  
+   main {
+    
+    padding: 30px;
+    margin: 0px 20px;
+   }
+
+   .lista-de-dicas {
+    
+    columns: 1;
+    
+   
+
+}
+
+.dicas-para-maes {
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.dicas-para-maes .paragrafo ,p {
+    padding: 10px
+}
+
+.dicas-para-maes .lista-de-dicas li  {
+    
+    margin: 5px 0px;
+}
+
+.dicas-para-maes article iframe {
+    height: 300px;
+    width: 350px;
+}
+
+.dicas-para-enxoval .enxoval img {
+    width: 100%;
+}
+
+   
+}
+
+@media (max-width:450px) {   
+.dicas-para-maes {
+        margin-bottom: 70px;
+        
+    }
+}
+@media (max-width:395px) {
+    .dicas-para-maes {
+        margin-bottom: 150px;
+        
+    }
+}
+
+@media (max-width:380px) {
+    .dicas-para-maes {
+        margin-bottom: 380px;
+        
+    }
+
+    .dicas-para-maes .paragrafo ,p {
+        padding: 10px
+    }
+
+    .dicas-para-maes article iframe {
+        height: 300px;
+        width: 350px;
+    }
+}
+
+@media (max-width:361px) {
+    header  {
+        padding: 10px;
+    }
+
+   .dicas-para-maes .lista-de-dicas li {
+      margin: 5px;
+      padding: 5px;
+   }
+} 

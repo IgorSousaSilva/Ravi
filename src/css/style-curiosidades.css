@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@font-face {
+    font-family: 'always';
+    src: url(../font/Always\ Smile.otf);
+}
+body {
+    background-color: var(--cor-padrao);
+    
+    
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;      
+    font-family: var(--font-especial);
+    font-size: 30px;
+    border-bottom: 1px solid black; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    
+}
+
+
+.curiosidade .info h2 {
+    font-size: 40px;
+    font-family: var(--font-especial);
+    letter-spacing: 3px;
+    text-align: center;
+}
+.curiosidade .info p {
+   text-align: center;
+   font-size: 30px;
+   font-weight: 300;
+  
+   font-family: var(--font-especial);
+    
+   
+}
+
+span {
+    color: var(--cor-texto);
+}
+
+
+
+.curiosidade .info a {
+    color: var(--cor-texto);
+    border-radius: 5px;
+    text-decoration: underline;
+    
+
+   
+    
+}
+
+.curiosidade .info  a:hover {
+    color: whitesmoke;
+    background-color: var(--cor-link);
+    
+    transition: 0.3s ease-in-out;
+    
+
+}
+
+.curiosidade .img-info {
+   margin: 20px 0px;
+}
+
+.curiosidade .img-info p {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: var(--font-especial);
+}
+
+.curiosidade .img-info img {
+     border-radius: 10px;
+    
+     box-shadow: 3px 2px 5px rgba(0, 4, 9, 0.384);
+     width: 100%;
+     height: 500px;
+     
+}
+.arvore-genealogica {
+    display: grid;
+    grid-template-areas: "avos avos avos avos"
+                         "pais pais pais pais"
+                         "filho filho filho filho";
+    text-align: center; 
+    
+    
+}
+
+.arvore-genealogica div {
+    padding: 30px;
+    
+}
+
+
+
+.arvore-genealogica div p{
+   margin: 5px 0 5px;
+   font-weight: bolder;
+}
+
+.arvore-genealogica div span {
+    margin-top: 5px;
+    font-weight: 700;
+    font-family: var(--font-especial);
+    font-size: 25px;
+}
+.arvore-genealogica div .img-rosto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    
+   
+}
+
+.avos {
+    grid-area: avos;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.pais {
+    grid-area: pais;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.filho {
+    grid-area: filho;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+
+.curiosidade .info video {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+.curiosidade .tabela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.curiosidade .tabela table caption {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.curiosidade .tabela table {
+    width: 400px;
+    height: 300px;
+    
+  
+    
+}
+
+.curiosidade .tabela table td,th {
+    border: 1px solid black;
+    padding: 8px;
+   
+}
+
+footer {
+   
+    margin-left: 20px;
+}
+
+footer button {
+    background-color: var(--cor-padrao);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+footer  button a img {
+    height: 60px;
+    width: 60px;
+
+}
+
+
