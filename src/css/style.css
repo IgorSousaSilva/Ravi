@@ -49,20 +49,19 @@ header img {
 
 nav {
     width: 100%;
+    
 }
 
 .lista-menu {
     display: flex;
     justify-content: center;
-    padding: 10px;
-    
+    padding: 10px; 
     border: 1px solid black;
     margin-top: 10px;
 }
 
 .lista-menu li a {
     margin-left: 30px;
-    border-radius: 10px;
     margin-top: 10px;
     padding: 2px 4px;
     border-radius: 10px;
@@ -125,6 +124,7 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
+        
        
         
         
@@ -136,8 +136,7 @@ p {
         list-style: circle;
         list-style: inside;
         columns: 2;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin: 20px 0px;
        
 
     }
@@ -149,17 +148,12 @@ p {
     }
 
     article iframe {
-        border: 1px solid black;
+       border: 1px solid black;  
        height: 300px;
        width: 100%;
     }
 
-    picture img {
-      width: 300px;
-      height: 300px;
-      border-radius: 10px;
-      border: none;
-    }
+    
 
     .dicas-para-enxoval {
         padding: 20px;
@@ -186,9 +180,7 @@ p {
     .enxoval .lista-de-enxoval {
         list-style: circle;
         list-style: inside;
-        
-        margin-bottom: 20px;
-        margin-top: 20px;
+        margin: 20px 0px;
        
     }
 

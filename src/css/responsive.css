@@ -90,20 +90,36 @@
    
 }
 
-@media (max-width:450px) {   
-.dicas-para-maes {
+@media (max-width:450px) {
+   
+
+    .dicas-para-maes {
         margin-bottom: 70px;
         
     }
-}
+   } 
+     
+
+
+
+
 @media (max-width:395px) {
     .dicas-para-maes {
         margin-bottom: 150px;
         
     }
-}
+
+    
+   
+  
+   } 
+   
+    
+
 
 @media (max-width:380px) {
+
+    
     .dicas-para-maes {
         margin-bottom: 380px;
         
@@ -129,3 +145,56 @@
       padding: 5px;
    }
 } 
+
+@media (max-width:300px) {
+    header {
+        padding: 20px;
+    }
+    
+    header img {
+        height: 200px;
+        width: 200px;
+        
+       
+   }
+
+   header h1 {
+   
+    font-size: 40px;
+    
+    
+}
+
+
+}
+
+@media(max-width:288px) {
+    .dicas-para-maes {
+        padding: 20px;
+        margin-bottom: 600px    
+     }
+    
+     .dicas-para-maes > article > iframe {
+        width: 100vw;
+        
+    }
+
+    
+
+    .dicas-para-enxoval h2, p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+   
+
+
+    .dicas-para-enxoval .enxoval img {
+      
+        height: 200px;
+        margin: auto;
+        display: block;
+    }
+}
+
+
