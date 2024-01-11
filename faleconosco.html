@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="cabecalho">
-        <h1>Fale Conosco</h1>
+        <h1>Fale Conosco!</h1>
     </header>
 
     <section  class="container">
@@ -21,12 +21,11 @@
         <form class="dados" action="index.html" method="post">
                 <label for="nome">Nome:</label>
                <input id="nome" type="text" required placeholder="Digite seu nome aqui">
-               <label for="nome"></label>
                <input id="nome" type="text"required placeholder="Sobrenome">
                <br>
                <br>
                <label for="idade">Idade:</label>
-               <input type="number" name="idade" id="idade" required placeholder="Digite sua idade aqui">
+               <input type="number" name="idade" id="idade" required placeholder="Digite sua idade">
                <br>
                <br>
                <label for="tel">Telefone:</label>
@@ -34,7 +33,9 @@
                <br>
                <br>
                <label>Data de nascimento:</label><br>
+               
                <select name="dia" required>
+                   <option value="">Dia</option>
                    <option value="1">1</option>
                    <option value="2">2</option>
                    <option value="3">3</option>
@@ -69,6 +70,7 @@
                </select>
         
                <select name="mes" required>
+                <option value="">Mês</option>
                    <option value="jan">Jan</option>
                    <option value="fev">Fev</option>
                    <option value="mar">Mar</option>
@@ -85,6 +87,7 @@
                </select>
         
                <select name="ano" required>
+                   <option value="">Ano</option>
                    <option value="1978">1978</option>
                    <option value="1979">1979</option>
                    <option value="1980">1980</option>
@@ -134,41 +137,36 @@
                <br>
                <br>
         
-        <label>Gênero:</label>
-        <br>
+        
+       
         <div class="genero">
+
+            <label>Gênero:</label>
+            <br>
+            <br>
             <label for="m">Masculino</label>
-            <input type="radio" name="genero" id="m" value="masculino" required>
+            <input type="radio" name="genero" id="m" value="masculino">
             <label for="f">Feminino</label>
-            <input type="radio" name="genero" id="f" value="feminino" required>
+            <input type="radio" name="genero" id="f" value="feminino">
             <label for="p">Personalizado</label>
-            <input type="radio" name="genero" id="p" value="personalizado" readonly>
+            <input type="radio" name="genero" id="p" value="personalizado">
+            
+            
         </div>
         <br>
         <br>
+        <label for="texto">Deixe uma mensagem para nós:</label>
+        <br>
+        <textarea name="texto" id="texto" cols="70" rows="15">
+        </textarea>
+        <br>
+        <br>
         
-           <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar">
               
         </form>
+    
 
-
-<form class="mensagem-avaliacao" action="index.html" method="get">
-
-    <label for="texto">Deixe uma mensagem para nós:</label>
-    <br>
-    <textarea name="texto" id="texto" cols="70" rows="15">
-
-    </textarea>
-
-    <br>
-    <br>
-
-    <label for="avaliacao">Avalie nosso site:</label>
-    <input type="range" name="avaliacao" id="avaliacao" min="1" max="10">
-    <br>
-    <br>
-    <input type="submit" value="Enviar">
-</form>
     </section>
 
     <footer class="rodape">

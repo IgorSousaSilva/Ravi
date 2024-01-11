@@ -1,3 +1,12 @@
+@media(max-width: 700px) {
+    .conteudos .conteudo img {
+   
+        width: 300px;
+        height: 300px;
+        padding: 30px 0px;
+    }
+}
+
 @media (max-width: 545px) {
 
     .body {

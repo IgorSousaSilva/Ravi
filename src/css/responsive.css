@@ -4,6 +4,12 @@
     padding: 30px;
         
     }
+
+    .dicas-para-maes {
+        padding: 20px;
+        margin-bottom: 300px    
+     }
+    
 }
 
 
@@ -91,7 +97,12 @@
 }
 
 @media (max-width:450px) {
-   
+
+
+    .dicas-para-enxoval h2, p {
+        font-size: 20px;
+        text-align: center;
+    }
 
     .dicas-para-maes {
         margin-bottom: 70px;

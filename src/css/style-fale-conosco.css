@@ -17,25 +17,16 @@ header {
     font-family: var(--font-especial);
     font-size: 30px;
     border-bottom: 1px solid black; 
-}
+} 
 
 .container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    text-align: center;
-    justify-content: center;
-   
-    
+   margin-top: 10px;
+   text-align: center;
 
-   
-    
-  
+
 }
-
 .container .dados {
-    margin-top: 20px;
-    
+    margin-top: 10px;
 }
 
 
@@ -46,7 +37,7 @@ header {
     font-size: 40px;
     font-family: var(--font-especial);
     letter-spacing: 3px;
-    text-align: center;
+    
 }
 
 .container .mensagem-avaliacao {
@@ -56,6 +47,7 @@ header {
 footer {
    
     margin-left: 20px;
+   
 }
 
 footer button {
