@@ -20,21 +20,21 @@
 
         <form class="dados" action="index.html" method="post">
                 <label for="nome">Nome:</label>
-               <input id="nome" type="text" required placeholder="Digite seu nome aqui">
-               <input id="nome" type="text"required placeholder="Sobrenome">
+               <input class="inputs" id="nome" type="text" required placeholder="Digite seu nome">
+               <input class="inputs" id="nome" type="text"required placeholder="Sobrenome">
                <br>
                <br>
                <label for="idade">Idade:</label>
-               <input type="number" name="idade" id="idade" required placeholder="Digite sua idade">
+               <input class="inputs" type="number" name="idade" id="idade" required placeholder="Digite sua idade">
                <br>
                <br>
-               <label for="tel">Telefone:</label>
-               <input type="tel" name="telefone" id="tel" required placeholder="(xx) xxxxx-xxxx">
+               <label  for="tel">Telefone:</label>
+               <input class="inputs" name="telefone" id="tel" required placeholder="(xx) xxxxx-xxxx">
                <br>
                <br>
                <label>Data de nascimento:</label><br>
                
-               <select name="dia" required>
+               <select class="inputs" name="dia" required>
                    <option value="">Dia</option>
                    <option value="1">1</option>
                    <option value="2">2</option>
@@ -69,7 +69,7 @@
                    <option value="31">31</option>
                </select>
         
-               <select name="mes" required>
+               <select  class="inputs" required>
                 <option value="">Mês</option>
                    <option value="jan">Jan</option>
                    <option value="fev">Fev</option>
@@ -86,7 +86,7 @@
         
                </select>
         
-               <select name="ano" required>
+               <select class="inputs" name="ano" required>
                    <option value="">Ano</option>
                    <option value="1978">1978</option>
                    <option value="1979">1979</option>
@@ -149,7 +149,7 @@
             <label for="f">Feminino</label>
             <input type="radio" name="genero" id="f" value="feminino">
             <label for="p">Personalizado</label>
-            <input type="radio" name="genero" id="p" value="personalizado">
+            <input  type="radio" name="genero" id="p" value="personalizado">
             
             
         </div>
@@ -157,12 +157,12 @@
         <br>
         <label for="texto">Deixe uma mensagem para nós:</label>
         <br>
-        <textarea name="texto" id="texto" cols="70" rows="15">
+        <textarea class="inputs" name="texto" id="texto" cols="70" rows="15">
         </textarea>
         <br>
         <br>
         
-        <input type="submit" value="Enviar">
+        <input class="inputs" type="submit" value="Enviar">
               
         </form>
     
@@ -170,12 +170,13 @@
     </section>
 
     <footer class="rodape">
-        <button>
+        <button class="btnnn">
             <a href="./index.html">
                 <abbr title="botão voltar"><img src="src/imagens/botao-voltar.png" alt="botao voltar"></abbr>
             </a>
         </button>
     </footer>
-    
+
+    <script src="./src/js/faleConosco.js"></script>
 </body>
 </html>

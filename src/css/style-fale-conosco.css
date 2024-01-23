@@ -62,3 +62,8 @@ footer  button a img {
 
 }
 
+.campo-preenchido {
+    border: 2px solid #0487D9;
+    ;
+}
+
