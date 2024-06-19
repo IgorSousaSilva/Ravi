@@ -40,7 +40,13 @@
         
     
     }
+    .container .formulario form .campo-obrigatorio {
 
+        font-size: 12px;
+        
+        
+        
+    }
 }
 
 
