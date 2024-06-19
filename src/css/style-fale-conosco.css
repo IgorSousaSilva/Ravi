@@ -19,35 +19,145 @@ header {
     border-bottom: 1px solid black; 
 } 
 
-.container {
-   margin-top: 10px;
-   text-align: center;
-
-
-}
-.container .dados {
-    margin-top: 10px;
-}
-
-
-
-
-
-.container h2 {
-    font-size: 40px;
-    font-family: var(--font-especial);
-    letter-spacing: 3px;
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
     
 }
 
-.container .mensagem-avaliacao {
-    margin-top: 20px;
+main .container {
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    width: 450px;
+    border-radius: 10px;
+    padding: 8px;
+    
+}
+
+.container .informacoes {
+    text-align: center;
+    padding: 5px;
+    font-family: var(--font-especial);
+    font-size: 25px;
+    
+}
+
+.container .informacoes p {
+    font-size: 22px;
+    padding: 0px 10px;
+}
+
+.container .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+
+.container .formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 30px;
+   
+    
+    
+}
+
+
+
+
+
+.container .formulario form .input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 136, 255);
+    padding: 3px;
+    
+}
+
+.container .formulario .input.input-preenchido {
+
+    border: 1px solid var(--cor-padrao);
+    
+}
+
+.container .formulario .input.input-nao-preenchido {
+
+    border: 1px solid red;
+    
+}
+
+.container .formulario form .input-select {
+   text-align: center;
+   margin: 5px;
+   color: gray;
+    
+}
+
+
+.container .formulario form .campo-obrigatorio {
+    color: red;
+    margin-bottom: 2px;
+    display: none;
+    
+    
+    
+}
+
+
+
+.container .formulario form .input::placeholder {
+    color: gray;
+    padding: 10px;
+    
+}
+
+.container .formulario form .input-mensagem {
+   
+        height: 90px;
+        resize: none;
+        margin-top: 5px;
+    
+  
+
+}
+
+.container .formulario #botao-enviar {
+    background-color: var( --cor-texto);
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: var(--font-destaque);
+    cursor: pointer;
+    box-shadow: 10px 5px 10px 2px rgba(0, 0, 0, 0.156);
+
+}
+
+.container .formulario #botao-enviar:hover {
+    background-color: var( --cor-padrao);
+   
+
+}
+
+.container .formulario .campo-obrigatorio.mostrar-campo{
+    display: block;
 }
 
 footer {
-   
+    grid-area: rodape; 
     margin-left: 20px;
-   
 }
 
 footer button {
@@ -62,8 +172,4 @@ footer  button a img {
 
 }
 
-.campo-preenchido {
-    border: 2px solid #0487D9;
-    ;
-}
 
