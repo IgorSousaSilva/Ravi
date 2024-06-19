@@ -42,6 +42,13 @@
     }
 
 }
+.container .formulario form .campo-obrigatorio {
+    
+    font-size: 15px;
+    
+    
+    
+}
 
 
 @media(max-width: 372px) {
