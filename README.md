@@ -13,7 +13,7 @@ Ele é dividido em 3 partes
 - curisidades
 - fotos
 - fale conosco
-- 
+
  ## Curiosidades
  [<img src="./src/tela-gif/ravi2.gif" alt="tela gif">]
 
